@@ -1,0 +1,17 @@
+{
+  "name": "Node-Api-VueJS",
+  "version": "1.0.0",
+  "description": "Api em Node Sequelize + MySQL",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
