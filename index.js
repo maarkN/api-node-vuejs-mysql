@@ -16,7 +16,8 @@ connection
 /** convert dados do form body */
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-app.use(routes);
+/** BaseURL/api/ rota que deseja acessar */
+app.use('/api', routes);
 
 
-app.listen(8080, ()=>{ console.log('APP rodando!') });
+app.listen(3000, ()=>{ console.log('APP rodando!') });

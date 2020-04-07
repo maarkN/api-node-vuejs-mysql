@@ -1,8 +1,6 @@
 const Sequelize = require('sequelize');
+const config = require('../config/config')
 
-const connection = new Sequelize('crud_irancho', 'root', '123456', {
-  host: 'localhost',
-  dialect: 'mysql'
-})
+const connection = new Sequelize(config)
 
 module.exports = connection;
